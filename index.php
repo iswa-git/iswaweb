@@ -156,10 +156,11 @@ window.onclick = function(event) {
                             maxWidth:500,
                             position: "center",
                             dialogClass: 'ui-dialog-content'
-                        })//.prev(".dialogempmoreinfo").css("background", "red") //end dialog
-                    } // end success
-                }) // end ajax
-            }) //end on dblclick
+                        })<!-- //end dialog -->
+                        <!-- .prev(".dialogempmoreinfo").css("background", "red") --> 
+                    } <!-- end success -->
+                }) <!-- end ajax -->
+            }) <!-- end on dblclick -->
             
             empTable.fnSetColumnVis(0,false);
 	});
@@ -168,11 +169,12 @@ window.onclick = function(event) {
 
 <body  dir="rtl">
         <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#hr">HR</a>
+            <a href="#stock">Stock</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div> 
     <h1 style='text-align:center'>أهلا بكم</h1>
     <p>السلام عليكم <br /> لائحة بالأسماء </p>
